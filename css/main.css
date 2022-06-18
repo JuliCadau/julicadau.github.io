@@ -1,0 +1,31 @@
+.wrapper {
+    width: 1000px;
+    height: 1000px;
+    background-color: #ccc;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    background-color: #ff0000;
+}
+
+.main-menu {
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    color: #ffffff;
+    background-color: blue;
+    display: block;
+    padding: 20px;
+}
+
+.main-menu li a:hover {
+    background-color: #ffffff;
+    color: blue;
+}
